@@ -3,32 +3,32 @@
 ------------------------------
 
 istenilen task : 
-bir anket Ã§Ã¶zÃ¼mÃ¼(google forms benzeri) yapmanÄ± bekliyoruz.
+bir anket çözümü(google forms benzeri) yapmanı bekliyoruz.
 
-KullanÄ±cÄ± KaydÄ± ve GiriÅŸi:
-- KullanÄ±cÄ±larÄ±n anketlere katÄ±labilmesi iÃ§in bir hesap oluÅŸturmasÄ± ve giriÅŸ yapmasÄ± gerekmektedir.
-- KullanÄ±cÄ±lar ad, soyad, e-posta ve ÅŸifre ile kayÄ±t olabilmelidir.
-- GiriÅŸ yapmak iÃ§in kullanÄ±cÄ±lar e-posta ve ÅŸifrelerini kullanmalÄ±dÄ±r.
+Kullanıcı Kaydı ve Girişi:
+- Kullanıcıların anketlere katılabilmesi için bir hesap oluşturması ve giriş yapması gerekmektedir.
+- Kullanıcılar ad, soyad, e-posta ve şifre ile kayıt olabilmelidir.
+- Giriş yapmak için kullanıcılar e-posta ve şifrelerini kullanmalıdır.
 
-Anket OluÅŸturma, DÃ¼zenleme ve Raporlama:
-- Sisteme giriÅŸ yapan kullanÄ±cÄ±lar anket oluÅŸturabilmelidir.
-- Her anket bir baÅŸlÄ±k ve birden fazla soru iÃ§ermelidir.
-- Sorular farklÄ± tÃ¼rlerde olabilir (Ã¶rn: Ã§oktan seÃ§meli, metin cevaplÄ±, sayÄ±sal cevaplÄ± derecelendirme vb.).
-- KullanÄ±cÄ±lar oluÅŸturduklarÄ± anketleri gÃ¶rÃ¼ntÃ¼leyebilmeli, dÃ¼zenleyebilmeli ve silebilmelidir.
-- Anket sonuÃ§larÄ± istenildiÄŸinde raporlanabilmelidir (toplam katÄ±lÄ±mcÄ± sayÄ±sÄ±, seÃ§enek grafikleri ve buna benzer istatistikleri iÃ§erebilir)
-- Anket, katÄ±lÄ±ma kapatÄ±lÄ±p aÃ§Ä±labilmelidir.
+Anket Oluşturma, Düzenleme ve Raporlama:
+- Sisteme giriş yapan kullanıcılar anket oluşturabilmelidir.
+- Her anket bir başlık ve birden fazla soru içermelidir.
+- Sorular farklı türlerde olabilir (örn: çoktan seçmeli, metin cevaplı, sayısal cevaplı derecelendirme vb.).
+- Kullanıcılar oluşturdukları anketleri görüntüleyebilmeli, düzenleyebilmeli ve silebilmelidir.
+- Anket sonuçları istenildiğinde raporlanabilmelidir (toplam katılımcı sayısı, seçenek grafikleri ve buna benzer istatistikleri içerebilir)
+- Anket, katılıma kapatılıp açılabilmelidir.
 
-Anket KatÄ±lÄ±mÄ±:
-- KayÄ±tlÄ± kullanÄ±cÄ±lar sistemde oluÅŸturulan tÃ¼m anketlere katÄ±labilirler.
-- Anketler, baÅŸlÄ±k ya da soru iÃ§eriklerinde geÃ§en ifadeye gÃ¶re aranabilir.
-- Anketler, katÄ±lÄ±ma kapatÄ±lmadÄ±kÃ§a katÄ±lÄ±mcÄ±lar birden fazla kez oy kullanabilirler.
+Anket Katılımı:
+- Kayıtlı kullanıcılar sistemde oluşturulan tüm anketlere katılabilirler.
+- Anketler, başlık ya da soru içeriklerinde geçen ifadeye göre aranabilir.
+- Anketler, katılıma kapatılmadıkça katılımcılar birden fazla kez oy kullanabilirler.
 
 ------------------------------
 
-proje hazÄ±rlÄ±k : 
-Proje geliÅŸtirme sÃ¼recinde Net Core mimarisini, veritabanÄ± yÃ¶netimi iÃ§in de Entity Framework Core kÃ¼tÃ¼phanesini, 
-veritabanÄ± olarak da mssql kullanmayÄ± planlÄ±yorum. Proje veritabanÄ±nÄ± codefirst olarak planlayacaÄŸÄ±m. 
-Verilerin arayÃ¼ze aktarÄ±lmasÄ±nda da razor ve mvc den yararlanmayÄ± planlÄ±yorum. 
+proje hazırlık : 
+Proje geliştirme sürecinde Net Core mimarisini, veritabanı yönetimi için de Entity Framework Core kütüphanesini, 
+veritabanı olarak da mssql kullanmayı planlıyorum. Proje veritabanını codefirst olarak planlayacağım. 
+Verilerin arayüze aktarılmasında da razor ve mvc den yararlanmayı planlıyorum. 
 
 ---------------------------------
 
@@ -58,4 +58,4 @@ https://localhost:7002/5
 
 -----------------------------------
 
-kullanÄ±cÄ± kaydÄ± swagger -> register 
+kullanıcı kaydı swagger -> register 
