@@ -42,6 +42,10 @@ sonuc :
 migration : 
 Update-Database
 
+and script -> formscript.sql
+(name: tekin@mail.com
+ pass: Tekin726.)
+
 -------------------------------
 
 test linkleri : 
